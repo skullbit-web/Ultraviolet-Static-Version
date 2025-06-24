@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [],
+  "routes": [
+    {
+      "src": "/uv/(.*)",
+      "dest": "uv/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
